@@ -1,0 +1,79 @@
+/** {
+	border: 1px solid black;
+}*/
+html, body {
+	margin: 0;
+	height: 100%;
+}
+header a {
+	float: right;
+	color: #191919;
+}
+.left {
+	float: left;
+	padding: 20px 30px 20px 30px;
+	color: grey;
+}
+.right {
+	float: right;
+	padding: 20px 30px 20px 30px;
+	color: grey;
+}
+#searchform {
+	padding: 210px 300px 360px 300px;
+}
+header {
+	height: 60px;
+}
+#gimages, #gadv {
+	padding: 20px 30px 20px 30px;
+}
+footer {
+	margin: 0;
+	height: 75px;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+}
+img{
+	margin-left: 510px;
+	margin-bottom: 30px
+}
+#entry {
+	height: 40px;
+	width: 640px;
+	margin-left: 310px;
+	border-radius: 25px;
+	border: 1px solid #b2b2b2;
+	background-image: url("https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-search-icon-by-vexels.png");
+	background-size: 20px 20px;
+  	background-position: 10px 10px;
+ 	background-repeat: no-repeat;
+ 	padding: 0 0 0 40px;
+}
+#buttons {
+	padding-left: 510px;
+	margin-top: 30px;
+}
+#buttons input {
+	padding : 5px 10px 5px 10px;
+	font-size: 15px;
+	font-family: Arial;
+	background-color: #f1f1f1;
+	border: 1px solid #e5e5e5;
+	color: #191919;
+}
+a {
+	font-size: 15px;
+	font-family: Arial;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+#entry:hover, #entry:focus {
+	border-color: #8c8c8c;
+}
+#buttons input:hover {
+	border-color: #8c8c8c;
+}

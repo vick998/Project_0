@@ -1,0 +1,104 @@
+/** {
+	border: 1px dashed blue;
+}*/
+html, body {
+	margin: 0;
+	height: 100%;
+}
+header a {
+	float: right;
+	color: #191919;
+}
+.left {
+	float: left;
+	padding: 20px 30px 20px 30px;
+	color: grey;
+}
+.right {
+	float: right;
+	padding: 20px 30px 20px 30px;
+	color: grey;
+}
+#searchform {
+	padding: 150px 300px 460px 300px;
+}
+header {
+	height: 60px;
+}
+#gsearch {
+	padding: 20px 30px 20px 30px;
+}
+footer {
+	margin: 0;
+	height: 75px;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+}
+#goog {
+	margin-left: 510px;
+	margin-bottom: 30px
+}
+#entry {
+	height: 40px;
+	width: 640px;
+	margin-left: 310px;
+	border-radius: 25px;
+	border: 1px solid #b2b2b2;
+	background-image: url("https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-search-icon-by-vexels.png");
+	background-size: 20px 20px;
+  	background-position: 10px 10px;
+ 	background-repeat: no-repeat;
+ 	padding: 0 0 0 40px;
+}
+#buttons {
+	display: inline;
+	position: relative;
+	top: 10px;
+	right: 100px;
+}
+a {
+	font-size: 15px;
+	font-family: Arial;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+#entry:hover {
+	border-color: #8c8c8c;
+}
+
+#images1 {
+	position: relative;
+	left: 725px;
+	bottom: 55px;
+	color: #6495ed;
+	font-family: Arial;
+	font-size: 17px;
+	width: 50px;
+}
+input[type=submit] {
+	position: relative;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYgEIn-iTiaiLzOHEFunk-L8rTR59cec0zmxRKJ5BILV1y0Nb4Jray1iSYsYwMdVkRpO8&usqp=CAU");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width:20px;
+	height:20px;
+	bottom: 10px;
+	left: 5px;
+	border: 0;
+}
+#cam {
+	width:30px;
+	height:30px;
+}
+/*jq fun times*/
+/*#dropdown1 {
+	position: relative;
+	left: 310px;
+	width: 682px;
+	height: 200px;
+	bottom: 90px;
+	background-color: white;
+*/
